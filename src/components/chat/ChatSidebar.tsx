@@ -24,7 +24,7 @@ const ChatSidebar = () => {
     const pathname=usePathname();
     const router = useRouter();
     const chats =[{
-     
+     _id:'sdfgh',
     }];
 
     const  isChatLoading = false; 
@@ -69,7 +69,7 @@ const ChatSidebar = () => {
                             pathname === `/chat/${chat._id} && bg-[#dae3ef]` 
                         )}>
 <span className='truncate text-gray-700 text-xs flex-1'> {chat.title}</span>
-<Button type='button'  variant='ghost' size='icon' className='opacity-0 group-hover:opacity-100' h-8 w-8  > 
+<Button type='button'  variant='ghost' size='icon' className='opacity-0 group-hover:opacity-100 h-8 w-8 ' > 
     <Trash2 className='h-4 w-4 text-gray-700 text-xs flex-1' />
 </Button>
 

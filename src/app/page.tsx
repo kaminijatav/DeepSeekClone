@@ -5,7 +5,7 @@ export default function Home() {
   return (
    <div className="flex h-screen">
     <ChatSidebar />
-<div className="flex flex-col mt-60 mx-auto">
+<div className="flex flex-col mt-40 mx-auto">
 <div className="flex flex-col items-center gap-2 md:ml-40">
   <div className="flex items-center gap-4 justify-center">
     <div className="h-16 w-16">
